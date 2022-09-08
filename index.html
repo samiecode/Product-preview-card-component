@@ -11,16 +11,24 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="/css/styles.css" />
-    <title>DevSenpai | Mary | Product preview card component</title>
+    <link rel="stylesheet" href="/css/responsiveness.css" />
+    <title>DevSenpai |Frontend Mentor| Product preview card component</title>
   </head>
   <body>
     <main>
       <div class="product_card">
-        <img
-          class="product_card__image"
-          src="./images/image-product-mobile.jpg"
-          alt="Product Image"
-        />
+        <picture class="product_card__image_wrapper">
+          <source
+            class="product_card__desktop_image"
+            media="(min-width: 768px)"
+            srcset="images/image-product-desktop.jpg"
+          />
+          <img
+            class="product_card__mobile_image"
+            src="./images/image-product-mobile.jpg"
+            alt="Product Image"
+          />
+        </picture>
         <div class="product_card__content">
           <h2 class="product_card__name">Perfume</h2>
           <h3 class="product_card__title">Gabrielle Essence Eau De Parfum</h3>

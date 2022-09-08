@@ -39,7 +39,15 @@ body {
   overflow: hidden;
 }
 
-.product_card__image {
+.product_card__image_wrapper {
+  display: flex;
+}
+
+.product_card__mobile_image {
+  width: 100%;
+}
+
+.product_card__desktop_image {
   width: 100%;
 }
 
@@ -109,4 +117,5 @@ body {
   font-family: sans-serif;
   font-size: 0.9em;
   margin-top: 2rem;
+  text-align: center;
 }

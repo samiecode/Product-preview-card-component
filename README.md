@@ -45,6 +45,7 @@ Users should be able to:
 
 - I learnt about the BEM Methodology and How to use it.
 - I also used this as project to learn how to use git on the terminal.
+- I also learnt about the picture tag.
 
 ### Useful resources
 
