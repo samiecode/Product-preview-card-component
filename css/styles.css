@@ -114,6 +114,13 @@ body {
   gap: 0.8rem;
 }
 
+/* Active states */
+.product_card__btn:hover {
+  background-color: #1a4031;
+  transition: 0.5s;
+}
+/* End Active States */
+
 .attribution {
   font-family: sans-serif;
   font-size: 0.9em;
