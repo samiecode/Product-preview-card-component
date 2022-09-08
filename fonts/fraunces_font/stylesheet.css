@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Fraunces";
+  src: local("Fraunces 9pt Black Italic"), local("Fraunces-9ptBlackItalic"),
+    url("Fraunces-9ptBlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: local("Fraunces 9pt Black"), local("Fraunces-9ptBlack"),
+    url("Fraunces-9ptBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

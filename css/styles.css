@@ -1,0 +1,112 @@
+/* Monserrat Font */
+@import url("../fonts/monserrat_font/stylesheet.css");
+/* End Montserrat Font */
+
+/* Fraunces Font */
+@import url("../fonts/fraunces_font/stylesheet.css");
+/* End Fraunces Font */
+
+:root {
+  --DarkCyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --VeryDarkBlue: hsl(212, 21%, 14%);
+  --DarkGrayishBlue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: var(--Cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.product_card {
+  background-color: var(--White);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 375px;
+  overflow: hidden;
+}
+
+.product_card__image {
+  width: 100%;
+}
+
+.product_card__content {
+  padding: 1.5rem;
+}
+
+.product_card__name {
+  font-family: "Montserrat";
+  padding: 1rem 0;
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--DarkGrayishBlue);
+  letter-spacing: 0.3em;
+}
+
+.product_card__title {
+  font-family: "Fraunces";
+  font-size: 1.8em;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+.product_card__details {
+  color: var(--DarkGrayishBlue);
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+
+.product_card .prices {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.product_card .prices__discounted_price {
+  font-family: "Fraunces";
+  font-size: 2em;
+  color: var(--DarkCyan);
+}
+
+.product_card .prices__initial_price {
+  font-family: "Montserrat";
+  font-size: 1em;
+  color: var(--DarkGrayishBlue);
+  text-decoration: line-through;
+}
+
+.product_card__btn {
+  width: 100%;
+  background-color: var(--DarkCyan);
+  color: var(--White);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1em;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.attribution {
+  font-family: sans-serif;
+  font-size: 0.9em;
+  margin-top: 2rem;
+}
