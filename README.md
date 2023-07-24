@@ -10,7 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -48,12 +47,8 @@ Users should be able to:
 - I also used this as project to learn how to use git on the terminal.
 - I also learnt about the picture tag.
 
-### Useful resources
-
-- [Resource 1](https://www.example.com) - This Net Ninja series helped me alot to better understand using git and github on the terminal
-
 ## Author
 
-- Website - [DevSenpai](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Samie Azubike](https://www.samieazubike.vercel.app)
+- Frontend Mentor - [@samieteq](https://www.frontendmentor.io/profile/samieteq)
+- Twitter - [@samieteq](https://www.twitter.com/samieteq)
